@@ -13,6 +13,22 @@ Or if you are using pnpm (if not, why not?)
 pnpm install
 ```
 
+Replace `store-name` to your store identifier  in `package.json` `"dev:shopify"` script 
+```json
+//...above settings 
+"scripts": {
+    //...other scripts
+    "dev:shopify": "shopify theme dev --store=store-name"
+  },
+//..remaning settings
+```
+
+Run development mode, it will run tailwind transpiler and local development server
+```sh
+npm run dev 
+```
+
+
 ## Additional directories 
 
 ### /styles 
