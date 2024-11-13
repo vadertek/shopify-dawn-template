@@ -1,4 +1,29 @@
-# Dawn
+
+# How to run this
+```sh
+git clone https://current-repo-url.com
+```
+
+```sh
+npm install -D
+```
+Or if you are using pnpm (if not, why not?)
+
+```sh
+pnpm install
+```
+
+## Additional directories 
+
+### /styles 
+Here you have to write additional styling for further its compilation into minified bundle with tailwindcss
+dawn
+
+## TODO
+* SCSS support
+
+
+# Dawn (From main repo)
 
 [![Build status](https://github.com/shopify/dawn/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Shopify/dawn/actions/workflows/ci.yml?query=branch%3Amain)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?color=informational)](/.github/CONTRIBUTING.md)
